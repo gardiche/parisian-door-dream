@@ -2,41 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Parisian Doors Design System - Elegant French aesthetic */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Parisian Color Palette */
+    --background: 45 25% 97%;
+    --foreground: 215 25% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 40 20% 99%;
+    --card-foreground: 215 25% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 40 20% 99%;
+    --popover-foreground: 215 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 215 85% 25%;
+    --primary-foreground: 45 25% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 140 15% 85%;
+    --secondary-foreground: 215 25% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 45 20% 93%;
+    --muted-foreground: 215 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 45 35% 88%;
+    --accent-foreground: 215 25% 15%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 45 25% 97%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 45 15% 88%;
+    --input: 45 15% 90%;
+    --ring: 215 85% 25%;
 
-    --radius: 0.5rem;
+    /* Parisian Gold Accent */
+    --gold: 45 65% 75%;
+    --gold-foreground: 215 25% 15%;
+
+    /* Sage Green */
+    --sage: 140 20% 70%;
+    --sage-foreground: 215 25% 15%;
+
+    /* Warm Gray */
+    --warm-gray: 30 8% 60%;
+    --warm-gray-foreground: 45 25% 97%;
+
+    /* Gradients */
+    --gradient-parisian: linear-gradient(135deg, hsl(var(--background)), hsl(var(--accent)));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--gold)), hsl(45 45% 85%));
+    --gradient-door: linear-gradient(180deg, transparent, hsl(215 25% 15% / 0.6));
+
+    /* Shadows */
+    --shadow-elegant: 0 8px 32px hsl(215 25% 15% / 0.1);
+    --shadow-card: 0 4px 16px hsl(215 25% 15% / 0.08);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
