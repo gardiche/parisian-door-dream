@@ -105,10 +105,10 @@ const Index = () => {
 
       case 'search':
         return (
-          <div className="min-h-screen bg-background p-4 pb-20">
+          <div className="min-h-screen bg-gradient-to-br from-background via-sage/20 to-gold/30 p-4 pb-20">
             <div className="max-w-md mx-auto">
               <div className="mb-6">
-                <h1 className="text-2xl font-bold text-foreground mb-2">Search Doors</h1>
+                <h1 className="text-2xl font-bold bg-gradient-to-r from-sage to-gold bg-clip-text text-transparent mb-2">Search Doors</h1>
                 <p className="text-muted-foreground">Find the perfect Parisian door</p>
               </div>
 
@@ -146,13 +146,13 @@ const Index = () => {
 
       case 'favorites':
         return (
-          <div className="min-h-screen bg-background p-4 pb-20">
+          <div className="min-h-screen bg-gradient-to-br from-background via-accent/20 to-rose/30 p-4 pb-20">
             <div className="max-w-md mx-auto">
               <div className="text-center mb-6">
-                <div className="p-3 bg-primary/10 rounded-full w-fit mx-auto mb-3">
-                  <Heart className="w-6 h-6 text-primary" />
+                <div className="p-3 bg-gradient-to-br from-accent to-rose rounded-full w-fit mx-auto mb-3 shadow-lg">
+                  <Heart className="w-6 h-6 text-white" />
                 </div>
-                <h1 className="text-2xl font-bold text-foreground mb-2">My Favorites</h1>
+                <h1 className="text-2xl font-bold bg-gradient-to-r from-accent to-rose bg-clip-text text-transparent mb-2">My Favorites</h1>
                 <p className="text-muted-foreground">
                   {favoriteDoors.length} door{favoriteDoors.length !== 1 ? 's' : ''} you love
                 </p>
@@ -188,14 +188,14 @@ const Index = () => {
 
       default: // home
         return (
-          <div className="min-h-screen bg-gradient-to-br from-background to-accent/20 p-4 pb-20">
+          <div className="min-h-screen bg-gradient-to-br from-background via-rose/20 to-lavender/30 p-4 pb-20">
             <div className="max-w-md mx-auto">
               {/* Header */}
               <div className="text-center mb-8">
-                <div className="p-3 bg-primary/10 rounded-full w-fit mx-auto mb-4">
-                  <Sparkles className="w-8 h-8 text-primary" />
+                <div className="p-4 bg-gradient-to-br from-primary via-secondary to-accent rounded-full w-fit mx-auto mb-4 shadow-lg">
+                  <Sparkles className="w-8 h-8 text-white" />
                 </div>
-                <h1 className="text-3xl font-bold text-foreground mb-2">
+                <h1 className="text-3xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent mb-2">
                   My Parisian Doors
                 </h1>
                 <p className="text-muted-foreground">

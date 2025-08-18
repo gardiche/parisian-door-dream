@@ -2,55 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Parisian Doors Design System - Elegant French aesthetic */
+/* Parisian Doors Design System - Vibrant & Colorful French aesthetic */
 
 @layer base {
   :root {
-    /* Parisian Color Palette */
-    --background: 45 25% 97%;
-    --foreground: 215 25% 15%;
+    /* Vibrant Parisian Color Palette */
+    --background: 320 40% 96%;
+    --foreground: 230 30% 15%;
 
-    --card: 40 20% 99%;
-    --card-foreground: 215 25% 15%;
+    --card: 290 50% 98%;
+    --card-foreground: 230 30% 15%;
 
-    --popover: 40 20% 99%;
-    --popover-foreground: 215 25% 15%;
+    --popover: 290 50% 98%;
+    --popover-foreground: 230 30% 15%;
 
-    --primary: 215 85% 25%;
-    --primary-foreground: 45 25% 97%;
+    --primary: 280 90% 55%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 140 15% 85%;
-    --secondary-foreground: 215 25% 15%;
+    --secondary: 190 85% 65%;
+    --secondary-foreground: 230 30% 15%;
 
-    --muted: 45 20% 93%;
-    --muted-foreground: 215 15% 45%;
+    --muted: 45 60% 88%;
+    --muted-foreground: 230 20% 45%;
 
-    --accent: 45 35% 88%;
-    --accent-foreground: 215 25% 15%;
+    --accent: 350 80% 75%;
+    --accent-foreground: 230 30% 15%;
 
-    --destructive: 0 70% 55%;
-    --destructive-foreground: 45 25% 97%;
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 45 15% 88%;
-    --input: 45 15% 90%;
-    --ring: 215 85% 25%;
+    --border: 280 40% 85%;
+    --input: 280 30% 90%;
+    --ring: 280 90% 55%;
 
-    /* Parisian Gold Accent */
-    --gold: 45 65% 75%;
-    --gold-foreground: 215 25% 15%;
+    /* Vibrant Parisian Accents */
+    --gold: 50 85% 65%;
+    --gold-foreground: 230 30% 15%;
 
-    /* Sage Green */
-    --sage: 140 20% 70%;
-    --sage-foreground: 215 25% 15%;
+    /* Emerald Green */
+    --sage: 160 70% 55%;
+    --sage-foreground: 0 0% 100%;
 
-    /* Warm Gray */
-    --warm-gray: 30 8% 60%;
-    --warm-gray-foreground: 45 25% 97%;
+    /* Warm Coral */
+    --warm-gray: 20 75% 70%;
+    --warm-gray-foreground: 0 0% 100%;
 
-    /* Gradients */
+    /* Rose Pink */
+    --rose: 340 80% 70%;
+    --rose-foreground: 0 0% 100%;
+
+    /* Lavender */
+    --lavender: 260 70% 75%;
+    --lavender-foreground: 230 30% 15%;
+
+    /* Vibrant Gradients */
     --gradient-parisian: linear-gradient(135deg, hsl(var(--background)), hsl(var(--accent)));
-    --gradient-gold: linear-gradient(135deg, hsl(var(--gold)), hsl(45 45% 85%));
-    --gradient-door: linear-gradient(180deg, transparent, hsl(215 25% 15% / 0.6));
+    --gradient-rainbow: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)), hsl(var(--accent)));
+    --gradient-sunset: linear-gradient(135deg, hsl(var(--gold)), hsl(var(--warm-gray)), hsl(var(--rose)));
+    --gradient-door: linear-gradient(180deg, transparent, hsl(230 30% 15% / 0.7));
 
     /* Shadows */
     --shadow-elegant: 0 8px 32px hsl(215 25% 15% / 0.1);

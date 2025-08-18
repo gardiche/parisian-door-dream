@@ -73,6 +73,14 @@ export default {
 				'warm-gray': {
 					DEFAULT: 'hsl(var(--warm-gray))',
 					foreground: 'hsl(var(--warm-gray-foreground))'
+				},
+				rose: {
+					DEFAULT: 'hsl(var(--rose))',
+					foreground: 'hsl(var(--rose-foreground))'
+				},
+				lavender: {
+					DEFAULT: 'hsl(var(--lavender))',
+					foreground: 'hsl(var(--lavender-foreground))'
 				}
 			},
 			borderRadius: {
